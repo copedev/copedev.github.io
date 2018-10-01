@@ -1,27 +1,57 @@
 *{	
 	padding:0;
-	margin:0;
+	margin-top: 5;
 }
 body{
 	font-family: tahoma, helvetica, sans-serif;
 	text-align: left;
 }
 nav{
-	background: grey;
 	color: black;
 	display: inline;
-	outline: black;
-	text-align: justify;
 }
-#hero{
-	background-size: cover;
+h2{
+	display: inline;
+	font-size: 40px;
 }
 .social-link{
-	width: 25px;
+	max-width: 40px;
+	margin: 0px 12px;
+}
+.nav-link{
+	text-align: right;
+	margin-left: 2.5%;
+	font-size: 30px;
+}
+#hero{
+	background: url('images/ocp-headquarters-greyscale.svg');
+	background-size: cover;
+	height: 850px;
+}
+#ocp-logo{
+	margin: 20px 50px;
+	width: 300px;
 }
 blockquote{
 	color: red;
+	display: inline;
+	font-size: 40px;
+	height: 400px;
+	margin: 0;
+	position: absolute;
+	text-align: right;
+	width: 200px;
 }
 cite{
-	color: black;
+	color: white;
+}
+#idt{
+	background: black;
+}
+#idt-title{
+	color: white;
+}
+#site-footer{
+	background: black;
+	color: white;
 }
