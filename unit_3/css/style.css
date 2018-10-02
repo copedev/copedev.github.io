@@ -1,14 +1,22 @@
+/*@import url('fonts/alex_murphy_solid.ttf/family=alexmurphy');*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab');
+
 *{	
 	padding:0;
-	margin-top: 5;
+	margin-top: 0;
+	text-decoration: none;
 }
 body{
-	font-family: tahoma, helvetica, sans-serif;
+	font-family: 'Roboto Slab', serif;
 	text-align: left;
+}
+h2{
+	
 }
 nav{
 	color: black;
 	display: inline;
+	border: black;
 }
 h2{
 	display: inline;
@@ -19,6 +27,8 @@ h2{
 	margin: 0px 12px;
 }
 .nav-link{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
 	text-align: right;
 	margin-left: 2.5%;
 	font-size: 30px;
@@ -43,7 +53,7 @@ blockquote{
 	width: 200px;
 }
 cite{
-	color: white;
+	color: black;
 }
 #idt{
 	background: black;
