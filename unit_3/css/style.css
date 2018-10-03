@@ -17,9 +17,10 @@ nav{
 h2{
 	display: inline;
 	font-family: 'Roboto Slab', serif;
-	font-size: 40px;
+	font-size: 50px;
 	font-weight: bold;
 	margin-right: 1em;
+	/*text-transform: uppercase;*/
 	/*font-family: 'alexmurphy';*/
 }
 h3,
@@ -34,51 +35,82 @@ h4{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 30px;
 	font-weight: bold;
+	margin-left: .5em;
+	padding: .5em;
 	text-align: right;
-	margin-left: .75em;
-	padding: .35em;
-
+	text-transform: uppercase;
 }
 #hero{
 	background: url('images/ocp-headquarters-greyscale.svg');
 	background-size: cover;
-	height: 850px;
+	height: 900px;
 }
 #ocp-logo{
 	margin-left: 10%;
 	margin-top: 10%;
-	position: absolute;
 	width: 300px;
 }
 blockquote{
 	color: red;
+	display: inline;
 	font-family: 'Roboto Slab', serif;
 	font-size: 40px;
-	height: 15em;
-	margin-left: 70%;
-	padding: 2.5em;
+	margin-left: 50%;
+	padding: 1em;
+	position: absolute;
 	text-align: right;
 	width: 5em;
 }
 cite{
-	color: black;
+	color: white;
 }
 #idt{
-	background: black;
+	background: rgb(0,0,0);
 	display: block;
+	margin: -75px 0 10px 0;
 	position: relative;
-	text-align: right;
+	width: 100%;
 
 }
 #idt-title{
 	color: white;
+	font-size: 30px;
+	margin: 0 0 .5em 1em;
+	padding: 0 0 .25em 3em;
+	text-align: right;
+	vertical-align: bottom;
 }
-#idt-text-title{
-	border-bottom: 1px;
-	border-color: white;
-	display: inline;
-	text-align: center;
+.idt-media{
+	display: inline-block;
+	position: relative;
+	margin-top:-75px;
+	margin-right: 0;
+	max-height: 168px;
+	max-width: 300px;
+	padding: 1em;
+	vertical-align: top;
+}
+.idt-container{
+	display: inline-block;
+	margin: -57px 0 0 -23px;
+	position: relative;
+	width: 15em;
+	
+}
+.idt-box{
+	background-color: white;
+	display: inline-box;
+	padding: .3em .3em .63em .3em;
 
+	text-align: justify;
+
+}
+.idt-text-title{
+	text-align: center;
+}
+
+.idt-text-body{
+	/*padding: .15em;*/
 }
 
 
