@@ -1,4 +1,4 @@
-/*@import url('fonts/alex_murphy_solid.ttf/family=alexmurphy');*/
+/*@import url(fonts/alex_murphy_solid.ttf/css?family=alexmurphy);*/
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab');
 
 *{	
@@ -7,31 +7,37 @@
 	text-decoration: none;
 }
 body{
-	font-family: 'Roboto Slab', serif;
-	text-align: left;
-}
-h2{
-	
+	font-size: 18px;
 }
 nav{
 	color: black;
 	display: inline;
-	border: black;
+	width: 100%;
 }
 h2{
 	display: inline;
+	font-family: 'Roboto Slab', serif;
 	font-size: 40px;
+	font-weight: bold;
+	margin-right: 1em;
+	/*font-family: 'alexmurphy';*/
+}
+h3,
+h4{
+	font-family: 'Montserrat', sans-serif;
 }
 .social-link{
-	max-width: 40px;
-	margin: 0px 12px;
+	max-width: 30px;
+	margin: 1em,.35em;
 }
 .nav-link{
 	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
 	font-weight: bold;
 	text-align: right;
-	margin-left: 2.5%;
-	font-size: 30px;
+	margin-left: .75em;
+	padding: .35em;
+
 }
 #hero{
 	background: url('images/ocp-headquarters-greyscale.svg');
@@ -39,28 +45,43 @@ h2{
 	height: 850px;
 }
 #ocp-logo{
-	margin: 20px 50px;
+	margin-left: 10%;
+	margin-top: 10%;
+	position: absolute;
 	width: 300px;
 }
 blockquote{
 	color: red;
-	display: inline;
+	font-family: 'Roboto Slab', serif;
 	font-size: 40px;
-	height: 400px;
-	margin: 0;
-	position: absolute;
+	height: 15em;
+	margin-left: 70%;
+	padding: 2.5em;
 	text-align: right;
-	width: 200px;
+	width: 5em;
 }
 cite{
 	color: black;
 }
 #idt{
 	background: black;
+	display: block;
+	position: relative;
+	text-align: right;
+
 }
 #idt-title{
 	color: white;
 }
+#idt-text-title{
+	border-bottom: 1px;
+	border-color: white;
+	display: inline;
+	text-align: center;
+
+}
+
+
 #site-footer{
 	background: black;
 	color: white;
