@@ -1,6 +1,8 @@
-/*@import url(fonts/alex_murphy_solid.ttf/css?family=alexmurphy);*/
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto+Slab:300,400,700');
-
+@font-face {
+	font-family: "alex murphy";
+	src:url(../fonts/alex_murphy_solid.ttf);
+}
 *{	
 	padding:0;
 	margin: 0;
@@ -8,6 +10,7 @@
 }
 body{
 	background-color: rgb(238,238,238);
+	font-family:"alex murphy", cursive;
 	font-size: 18px;
 }
 header{
@@ -46,14 +49,14 @@ h4{
 	margin: .3em .65em;
 }
 .nav-link{
-	font: 30px 'Montserrat', sans-serif;
+	/*font: 30px 'Montserrat', sans-serif;*/
 	margin-left: .65em;
 	padding: .65em;
 	text-align: right;
 	text-transform: uppercase;
 }
 #hero{
-	background: url('images/ocp-headquarters-greyscale.svg');
+	background: url('../images/ocp-headquarters-greyscale.svg');
 	background-size: cover;
 	width: 100%;
 	height: 900px;
@@ -66,15 +69,11 @@ h4{
 blockquote{
 	background-color: rgba(253,253,253,.1);
 	color: rgb(229,13,0);
-	display: inline;
-	font: bold 45px 'Roboto Slab', serif;
-	height: 900px;
+	/*font: bold 45px 'Roboto Slab', serif;*/
 	line-height: 1.25em;
 	margin-left: 30%;
 	padding: 1em;
-	position: absolute;
 	text-align: right;
-	width: 4.75em;
 }
 cite{
 	color: white;
@@ -131,7 +130,7 @@ cite{
 }
 
 .idt-text-body{
-	font: lighter 16px 'Roboto Slab', serif;
+	/* font: lighter 16px 'Roboto Slab', serif; */
 }
 #products{
 	background-color: rgb(178,178,178);
