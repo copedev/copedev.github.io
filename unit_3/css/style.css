@@ -1,5 +1,5 @@
 /*@import url(fonts/alex_murphy_solid.ttf/css?family=alexmurphy);*/
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400|Roboto+Slab:400,700');
 
 *{	
 	padding:0;
@@ -7,7 +7,24 @@
 	text-decoration: none;
 }
 body{
+	background-color: rgb(238,238,238);
 	font-size: 18px;
+}
+header{
+	background-color: rgb(253,253,253);
+	width: 100%;
+}
+a:link{
+	color:black;
+}
+a:visited{
+	color:black;
+}
+a:hover{
+	color: rgb(229,13,0);
+}
+a:active{
+	color: yellow;
 }
 nav{
 	color: black;
@@ -29,14 +46,14 @@ h4{
 }
 .social-link{
 	max-width: 30px;
-	margin: 1em,.35em;
+	margin: .3em .65em;
 }
 .nav-link{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 30px;
 	font-weight: bold;
-	margin-left: .5em;
-	padding: .5em;
+	margin-left: .65em;
+	padding: .65em;
 	text-align: right;
 	text-transform: uppercase;
 }
@@ -47,23 +64,28 @@ h4{
 }
 #ocp-logo{
 	margin-left: 10%;
-	margin-top: 10%;
+	margin-top: 8%;
 	width: 300px;
 }
 blockquote{
-	color: red;
+	background-color: rgba(253,253,253,.1);
+	color: rgb(229,13,0);
 	display: inline;
 	font-family: 'Roboto Slab', serif;
-	font-size: 40px;
+	font-size: 45px;
+	font-weight: bolder;
+	height: 900px;
+	line-height: 1.25em;
 	margin-left: 50%;
 	padding: 1em;
 	position: absolute;
 	text-align: right;
-	width: 5em;
+	width: 4.75em;
 }
 cite{
 	color: white;
 }
+
 #idt{
 	background: rgb(0,0,0);
 	display: block;
@@ -98,21 +120,68 @@ cite{
 	
 }
 .idt-box{
+	color: black;
 	background-color: white;
 	display: inline-box;
 	padding: .3em .3em .63em .3em;
-
 	text-align: justify;
 
 }
 .idt-text-title{
+	border-bottom: 4px double #000;
+	padding-top: .3em;
+	padding-bottom: .2em;
+	margin-bottom: .3em;
 	text-align: center;
 }
 
 .idt-text-body{
-	/*padding: .15em;*/
+	font-family: 'Roboto Slab', serif;
+	font-size: 16px;
+	
 }
+#products{
+	background-color: rgb(178,178,178);
+	margin: 10% 5% 10% 5%;
 
+}
+#products-title{
+	margin-left: .25em;
+	vertical-align: top;
+}
+#ed209-drawing{
+	margin: 1em 0 0 3em;
+	position: relative;
+	width: 92%;
+}
+.products-container{
+	background-color: white;
+	display: inline-block;
+	margin: 0 0 0 .25em;
+	padding: 1.25em;
+	position: relative;
+	text-align: justify;
+	vertical-align: top;
+	width: 30em;
+}
+.products-box{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: 1.50em;
+	padding: 1.5em 5em;
+}
+.products-media{
+	display: inline;
+ 	margin: -5px 0 0 -4px;
+ 	max-width: 600px;
+ 	padding: 0;
+ 	vertical-align: top;
+
+}
+#nuke{
+	margin-left: 3px;
+}
 
 #site-footer{
 	background: black;
