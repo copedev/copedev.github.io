@@ -1,18 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto+Slab:300,400,700');
 @font-face {
 	font-family:"Alex Murphy Solid Regular"; 
 	src:url("../fonts/alex_murphy_solid.ttf") format("truetype");
 	font-style:normal;
 	font-weight:normal;
 }
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto+Slab:300,400,700');
 *{	
 	padding:0;
 	margin: 0;
 	box-sizing:border-box;
 }
 body{
-	font: 18px 'Montserrat', sans-serif;
-	background-color: rgb(238,238,238);
+	font: 100% 'Montserrat', sans-serif;
+	/*background-color: rgb(238,238,238);*/
 	font-size: 18px;
 }
 header{
@@ -32,7 +32,7 @@ a:hover{
 	color: rgb(229,13,0);
 }
 h2{
-	font: 6em 'Alex Murphy Solid Regular', serif;
+	font: 5em 'Alex Murphy Solid Regular', serif;
 }
 h3,
 h4{
@@ -41,102 +41,127 @@ h4{
 #ocp-name{
 	float:left;
 	padding: 12px;
-	width: 40%;
+	width: 600px;
 }
 .social-link{
 	float: left;
-	margin-top: 11px;
-	margin-left: 5px;
-	width: 20%;
+	padding: 9px 1em 0 0;
 }
 .social-link img{
 	margin-left: 15px;
-	width: 8.5%;
+	width: 30px;
 }
 .social-link a{
-	padding: 5px;
+	padding: 0 1em;
 }
 .nav-link{
-	display: inline;
 	float: left;
 	font: 3em 'Alex Murphy Solid Regular', serif;
-	margin: .3em;
+	padding: 0 .5em;
+}
+.nav-link a{
+	padding: 0 .5em;
 }
 .clearfix:after {
 	visibility: hidden;
 	display: block;
 	font-size: 0;
-	content: " ";
+	content: "";
 	clear: both;
 	height: 0;
 }
 #hero{
-	background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.4)), url(../images/ocp-headquarters-greyscale.svg);
+	background: linear-gradient(to left,rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.4)), url(../images/ocp-headquarters-greyscale.svg);
 	background-size: cover;
+	display: inline-block;
 	height: 70vh;
+	padding: 100px 250px;
+	width: 100%;
 }
 #ocp-logo{
-	width: 300px;
+	float:left;
+	padding-top: 50px;
+	width: 400px;
 }
 blockquote{
 	color: rgb(229,13,0);
-	font: bold 45px 'Roboto Slab', serif;
+	display: inline-block;
+	float: right;
+	font: bold 2.5em 'Roboto Slab', serif;
 	line-height: 1.25em;
-	padding: 1em;
-	text-align: right;
+	margin-right: 100px;
+	text-align: left;
+	width: 15%;
 }
 cite{
 	color: white;
+	display: block;
+	font-size: .75em;
+	font-weight: lighter;
 }
 
 #idt{
 	background-color: rgb(0,0,0);
 	display: inline-block;
+	padding-bottom: 25px;
 	width: 100%;
+}
+#idt a:hover{
+	color: rgb(229,13,0);
 }
 #idt-title{
 	color: white;
 	float: left;
-	font-size: 30px;/*
-	margin: 0 0 .5em 1em;*/
-	padding: 0 0 .25em 3em;
+	font: bold 1.5em 'Roboto Slab', serif;
+	padding: 10px 15px 0 100px;
 	text-align: right;
+}
+#idt article{
+	float: left;
+	margin-top: -75px;
+	padding: 0 1em 0 0;
+	height: 150px;
+	width: 525px;
 }
 .idt-media{
 	float: left;
-	max-width: 250px;
+	height: 100%;
 }
-.idt-container{
-	float: right;
-	width: 20%;
-	padding: 1em;
+#ed-209-aftermath{
+	border-bottom: 1px solid black;
 }
-.idt-article{
+
+.idt-text-box{
 	background-color: white;
 	color: black;
-	float: right;
+	float: left;
+	height: 100%;
+	overflow: auto;
 	padding: .3em .3em .63em .3em;
-	text-align: justify;
-
+	text-align: left;
+	width: 45%
 }
 .idt-text-title{
-	border-bottom: 4px double #000;
-	font-weight: bold;
-	margin-bottom: .3em;
+	border-bottom: 3px double #000;
+	font: bold 1em 'Montserrat', sans-serif;
+	padding-bottom: .1em;
 	text-align: center;
 }
 
 .idt-text-body{
-	 font: lighter 16px 'Roboto Slab', serif; 
+	 font: lighter .7em 'Roboto Slab', serif;
+	 padding-top: .25em;
 }
-#products{
 
+
+#products{
+	padding: 100px;
 }
 #products-title{
 	margin-left: .25em;
 }
 #ed209-drawing{
-	width: 900px;
+	height: 300px;
 	margin: auto;
 }
 .products-container{
