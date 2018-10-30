@@ -12,13 +12,11 @@
 }
 body{
 	font: 100% 'Montserrat', sans-serif;
-	/*background-color: rgb(238,238,238);*/
 	font-size: 18px;
 }
 header{
 	background-color: rgb(255,255,255);
 	border-top: 12px solid #000;
-	display: inline-block;
 	width: 100%;
 }
 a{
@@ -39,29 +37,30 @@ h4{
 	font-family: 'Montserrat', sans-serif;
 }
 #ocp-name{
-	float:left;
+	float: left;
 	padding: 12px;
-	width: 600px;
+	width: 400px;
 }
 .social-link{
 	float: left;
-	padding: 9px 1em 0 0;
+	margin: 0 7%;
+	padding: .3em;
+	width: 15%;
 }
 .social-link img{
-	float: left;
-	margin-left: 15px;
-	width: 30px;
+	max-width: 20px;
 }
 .social-link a{
 	padding: 0 1em;
 }
 .nav-link{
 	float: left;
-	font: 3em 'Alex Murphy Solid Regular', serif;
-	padding: 0 .5em;
+	font: 1.25em 'Roboto', sans-serif;
+	margin: 0 5%;
+	padding: .15em 2em;
 }
 .nav-link a{
-	padding: 0 .5em;
+	padding: 0 1.5em;
 }
 .clearfix:after {
 	visibility: hidden;
@@ -72,30 +71,29 @@ h4{
 	height: 0;
 }
 #hero{
-	background: linear-gradient(to left,rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.4)), url(../images/ocp-headquarters-greyscale.svg);
+	background: linear-gradient(to top,rgba(255, 255, 255, 0.99), rgba(0, 0, 0, 0.3)), url(../images/ocp-headquarters-greyscale.svg);
 	background-size: cover;
 	display: inline-block;
-	height: 70vh;
-	padding: 100px 250px;
+	height: 75vh;
 	width: 100%;
 }
 #ocp-logo{
-	float:left;
-	padding-top: 50px;
-	width: 400px;
+	float: left;
+	margin: 150px 0 200px 200px;
+	padding: 50px;
+	width: 300px;
 }
 blockquote{
-	color: rgb(229,13,0);
-	display: inline-block;
-	float: right;
-	font: bold 2.5em 'Roboto Slab', serif;
-	line-height: 1.25em;
-	margin-right: 100px;
-	text-align: left;
-	width: 15%;
+	color: rgb(225,225,225);
+	font: bold 3.25em 'Alex Murphy Solid Regular', serif;
+	letter-spacing: 3px;
+	line-height: 1.15em;
+	margin:190px 100px 200px 200px;
+	padding-left: 200px;
+	text-align: right;
 }
 cite{
-	color: white;
+	color: rgb(35,31,32);
 	display: block;
 	font-size: .75em;
 	font-weight: lighter;
@@ -104,12 +102,13 @@ cite{
 #idt{
 	background-color: rgb(0,0,0);
 	display: inline-block;
+	margin-top: 200px;
 	padding-left: 10%;
 	padding-bottom: 25px;
 	width: 100%;
 }
-#idt a:hover{
-	color: rgb(229,13,0);
+#idt article a:hover{
+	background-color: red;
 }
 #idt-title{
 	color: white;
@@ -120,92 +119,205 @@ cite{
 }
 #idt article{
 	float: left;
-	margin: -75px 0 0 5px;
-	height: 150px;
+	background-color: white;
+	margin: -75px 0 0 15px;
+	height: 140px;
 	text-align: center;
-	width: 475px;
+	width: 400px;
 }
 .idt-media{
-	float: left;
 	height: 100%;
+	object-fit: cover;
+	width: 60%;
 }
 #ed-209-aftermath{
 	border-bottom: 1px solid black;
 }
-
 .idt-text-box{
-	background-color: white;
 	color: black;
-	float: left;
+	float: right;
 	height: 100%;
-	overflow: hidden;/*
-	padding: .3em .3em .63em .3em;*/
+	overflow: hidden;
 	width: 40%;
 }
 .idt-text-title{
 	border-bottom: 3px double #000;
 	font: bold 1.2em 'Montserrat', sans-serif;
-	padding: .3em;
+	padding: .4em;
 }
-
 .idt-text-body{
-	 font: lighter .75em 'Roboto Slab', serif;
+	 font: lighter .67em 'Roboto Slab', serif;
 	 line-height: 1.5em;
-	 padding: .6em;
+	 padding: .4em;
+	 text-align: left;
 }
-
-
 #products{
-	padding: 100px;
+	border-top: 2px solid black;
+	padding: 25px 50px;
 }
 #products-title{
 	margin-left: .25em;
 }
-#ed209-drawing{
-	height: 300px;
-	margin: auto;
-}
-.products-container{
-	margin: 0 0 0 .25em;
-	padding: 1.25em;
-	text-align: justify;
-	width: 30em;
+#products h3{
+	font-size: 1.25em;
 }
 .products-article{
 	font-family: 'Montserrat', sans-serif;
-	font-size: 20px;
 	font-weight: lighter;
-	line-height: 1.50em;
-	padding: 1.5em 5em;
+	line-height: 1.60em;
+	padding: 70px 50px 60px 50px;
+	text-align: center;
+	width:100%;
 }
-.products-media{
- 	max-width: 300px;
- 	padding: 0;
+.products-article img{
+	width: 100%;
+}
+#products-p1{
+	padding: 1em 2em;
+}
+#products a{
+	border-bottom: 1px solid black;
+	font-weight: bold;
+}
+#products-p2{
+	padding-top: 1em;
+}
+.products-container{
+	margin-bottom: 20%;
+	padding: 5px 50px;
+	width:100%;
+}
+.products-container img{
+	display: block;
+	float: left;
+	max-width: 33%;
 }
 #services{
+	border-top: 2px solid black;
+	clear:both;
+	margin-top: 20%;
+	padding: 25px 50px 50px 50px;
+	width: 100%;
 }
-.services-media{
-	max-width: 200px;
+#services-title{
+	padding: 60px 0 75px; 
+	text-align: center;
+}
+.services-container img{
+	display: block;
+	float: left;
+	max-width: 33%;
 }
 .services-article{
+	line-height: 1.6em;
+	margin-top: 15%;
+	padding: 4% 3% 1% 33%;
+	text-align: left;
 }
-.services-aside{
+.services-article h3{
+	padding-bottom: 1em;
 }
-#future{
+.services-article p{
+	padding-top: 1em;
 }
-.future-media{
-	max-width: 200px;
+.services-article cite{
+	color: black;
+	display: inline;
+	font: 1em Roboto, sans-serif;
+	padding: 15px;
+}
+.services-article q{
+	color: black;
+	font-weight: bold;
 }
 .future-article{
+	line-height: 1.6em;
+	padding: 3em;
+	text-align: right;
+}
+.future-article h3{
+	padding: 1em;
+}
+#future-hr{
+	margin-left: 2%;
+}
+#future-p1{
+	padding-top: 1em;
+}
+.future-article p{
+	padding: .35em;
+}
+.future-article a{
+	border-bottom: 1px solid black;
+	font-weight: bold;
+}
+#for-our-children{
+	width: 66%;
+}
+#delta-city {
+	width: 100%;
 }
 #leaders{
+	border-top: 2px solid black;
+	clear:both;
+	padding: 25px 50px 100px 50px;
+	width: 100%;
 }
-.leaders-media{
-	max-width: 200px;
+#leaders-title{
+	padding: 60px 0 75px; 
+	text-align: right;
+}
+.leaders-container{
+	background-color: rgb(35,31,32);
+	margin: auto;
+	max-width: 30%;
+}
+.leaders-container img{
+	width: 100%;
 }
 .leaders-article{
+	color: white;
+	line-height: 1.5em;
+	padding: 1.5em;
+	text-align: center;
+	width: 100%;
 }
-#site-footer{
+.leaders-article h3{
+	font-size: 1.5em;
+}
+.leaders-article h4{
+	border-bottom: 1px solid white;
+	font-size: .75em;
+	font-weight: normal;
+	padding: .5em;
+}
+.leaders-article p{
+	font-size: 16px;
+	line-height: 1.75em;
+	padding-top: .75em;
+}
+footer{
 	background-color: black;
 	color: white;
+}
+#contact{
+	margin: auto;
+	opacity: .8;
+	padding: 4em 0 2em 0;
+	width: 40%;
+}
+#footer-email{
+	font-size: 3em;
+	font-family: "Alex Murphy Solid Regular", sans-serif;
+	padding-bottom: 3px;
+	text-align: center;
+	width: 75%;
+}
+#footer-submit{
+	font-size: 2.2em;
+	width: 24%;
+}
+#copyright{
+	padding: 5px;
+	text-align: left;
 }
