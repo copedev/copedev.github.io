@@ -30,7 +30,7 @@ a:hover{
 	color: rgb(229,13,0);
 }
 h2{
-	font: 5em 'Alex Murphy Solid Regular', serif;
+	font: 4em 'Alex Murphy Solid Regular', serif;
 }
 h3,
 h4{
@@ -103,7 +103,7 @@ cite{
 	background-color: rgb(0,0,0);
 	display: inline-block;
 	margin-top: 200px;
-	padding-left: 10%;
+	padding-left: 3vw;
 	padding-bottom: 25px;
 	width: 100%;
 }
@@ -113,17 +113,19 @@ cite{
 #idt-title{
 	color: white;
 	float: left;
-	font: bold 2em 'Roboto Slab', serif;
-	padding: 10px 15px 0 100px;
+	font: bold 1.5em 'Roboto Slab', serif;
+	margin: 0 2vw 0 4vw;
+	padding-top: 8px;
 	text-align: right;
 }
 #idt article{
 	float: left;
 	background-color: white;
-	margin: -75px 0 0 15px;
+	margin-top: -75px;
+	margin-left: 1vw;
 	height: 140px;
 	text-align: center;
-	width: 400px;
+	width: 21vw;
 }
 .idt-media{
 	height: 100%;
@@ -142,17 +144,17 @@ cite{
 }
 .idt-text-title{
 	border-bottom: 3px double #000;
-	font: bold 1.2em 'Montserrat', sans-serif;
-	padding: .4em;
+	font: bold 1em 'Montserrat', sans-serif;
+	padding: .3em;
 }
 .idt-text-body{
-	 font: lighter .67em 'Roboto Slab', serif;
-	 line-height: 1.5em;
-	 padding: .4em;
+	 font: lighter .65em 'Roboto Slab', serif;
+	 line-height: 1.7em;
+	 padding: .5em .8em .2em;
 	 text-align: left;
+	 word-spacing: .25em;
 }
 #products{
-	border-top: 2px solid black;
 	padding: 25px 50px;
 }
 #products-title{
@@ -164,9 +166,9 @@ cite{
 .products-article{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: lighter;
-	line-height: 1.60em;
+	line-height: 1.3em;
 	padding: 70px 50px 60px 50px;
-	text-align: center;
+	text-align: left;
 	width:100%;
 }
 .products-article img{
@@ -193,10 +195,10 @@ cite{
 	max-width: 33%;
 }
 #services{
-	border-top: 2px solid black;
+	background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(135,135,135));
 	clear:both;
 	margin-top: 20%;
-	padding: 25px 50px 50px 50px;
+	padding: 25px 50px 0 50px;
 	width: 100%;
 }
 #services-title{
@@ -209,7 +211,7 @@ cite{
 	max-width: 33%;
 }
 .services-article{
-	line-height: 1.6em;
+	line-height: 1.3em;
 	margin-top: 15%;
 	padding: 4% 3% 1% 33%;
 	text-align: left;
@@ -231,8 +233,8 @@ cite{
 	font-weight: bold;
 }
 .future-article{
-	line-height: 1.6em;
-	padding: 3em;
+	line-height: 1.3em;
+	padding: 3em 3em 0 3em;
 	text-align: right;
 }
 .future-article h3{
@@ -255,28 +257,35 @@ cite{
 	width: 66%;
 }
 #delta-city {
-	width: 100%;
+	margin-left: -105px;
+	width: 100vw;
 }
 #leaders{
+	background-color: rgb(35,35,35);
 	border-top: 2px solid black;
 	clear:both;
-	padding: 25px 50px 100px 50px;
+	margin: 0;
+	padding: 0 25px 100px 0;
 	width: 100%;
 }
 #leaders-title{
-	padding: 60px 0 75px; 
+	color: rgb(235,231,232);
+	margin-right: .25em;
+	padding: 60px 0 75px 0; 
 	text-align: right;
 }
 .leaders-container{
-	background-color: rgb(35,31,32);
+	background-color: rgb(235,235,235);
+	border: 1px solid white;
 	margin: auto;
 	max-width: 30%;
 }
 .leaders-container img{
+	border: 1px solid black;
 	width: 100%;
 }
 .leaders-article{
-	color: white;
+	color: rgb(35,31,32);
 	line-height: 1.5em;
 	padding: 1.5em;
 	text-align: center;
@@ -286,7 +295,7 @@ cite{
 	font-size: 1.5em;
 }
 .leaders-article h4{
-	border-bottom: 1px solid white;
+	border-bottom: 1px solid black;
 	font-size: .75em;
 	font-weight: normal;
 	padding: .5em;
@@ -307,15 +316,18 @@ footer{
 	width: 40%;
 }
 #footer-email{
-	font-size: 3em;
-	font-family: "Alex Murphy Solid Regular", sans-serif;
-	padding-bottom: 3px;
+	border: 4px solid white;
+	font-size: 2.2em;
 	text-align: center;
 	width: 75%;
 }
 #footer-submit{
-	font-size: 2.2em;
-	width: 24%;
+	border: 4px solid white;
+	font: 3.4em "Alex Murphy Solid Regular", sans-serif;
+	width: 22%;
+}
+input:hover{
+	color: rgb(229,13,0);
 }
 #copyright{
 	padding: 5px;
