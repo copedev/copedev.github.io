@@ -45,11 +45,11 @@ h4{
 	float: left;
 	margin-left: 6%;
 	padding: .25em 0;
-	min-width: 18%;
+	min-width: 200px;
 	max-height: 30.875px;
 }
 .social-link img{
-	max-width: 1em;
+	max-width: 19px;
 }
 .social-link a{
 	padding: 0 .65em;
@@ -58,7 +58,7 @@ h4{
 	float: right;
 	font: 1.15em 'Roboto', sans-serif;
 	padding: .15em 0;
-	min-width: 20%;
+	min-width: 507px;
 }
 .nav-link a{
 	padding: 0 .5em 0 1.25em;
@@ -141,6 +141,7 @@ cite{
 	float: right;
 	height: 100%;
 	overflow: hidden;
+	padding-bottom: .3em;
 	width: 40%;
 }
 .idt-text-title{
@@ -150,8 +151,8 @@ cite{
 }
 .idt-text-body{
 	 font: lighter .65em 'Roboto Slab', serif;
-	 line-height: 1.5em;
-	 padding: .3em .5em;
+	 line-height: 1.4em;
+	 padding: .3em .5em .5em .5em;
 	 text-align: left;
 	 word-spacing: .25em;
 }
@@ -352,18 +353,47 @@ input:hover{
 	padding: 5px;
 	text-align: left;
 }
-@media only screen and (max-width: 1448px) {
-	.idt-media {
-		width:50%;
-	}
-	.idt-text-box {
-		width:50%;
-	}
+@media only screen and (max-width: 1695px) {
 	.idt-text-title{
-		font-size: .85em;
+		font-size: .9em;
 	}
 	.idt-text-body{
-		font-size: .65em;
+		line-height: 1.2em;
+	}
+}
+@media only screen and (max-width: 1494px) {
+	.idt-text-body{
+		font-size: .6em;/*
+		word-spacing: .2em;*/
+	}
+}
+
+@media only screen and (max-width: 1448px) {
+	.idt-media {
+		width:55%;
+	}
+	.idt-text-box {
+		width:45%;
+	}
+	.idt-text-title{/*
+		font-size: .85em;*/
+	}
+	.idt-text-body{
+		line-height: 1.4em;
+	}
+}
+@media only screen and (max-width: 1389px) {
+	#ocp-logo{
+		margin-left: 5%;
+		width: 325px;
+	}
+	.idt-text-body{
+		line-height: 1.3em;
+	}
+}
+@media only screen and (max-width: 1227px) {
+	.idt-text-body{
+		font-size: .58em;
 	}
 }
 @media only screen and (max-width: 1210px) {
@@ -373,15 +403,174 @@ input:hover{
 	.social-link{
 		margin-left: 1%;
 	}
-	.nav-link a{/*
-		font-size: .85em;*/
-		min-width: 10%
+	.nav-link{
+		font-size: 1.3em;
+		min-width: 350px;
+	}
+	.nav-link a{
 		padding-left: .25%;
 	}
+	#hero{
+		background: linear-gradient(to top,rgba(255,255,255,0.99), rgba(75,75,75,.3)), url(../images/ocp-headquarters-greyscale.svg);
+		background-size: cover;
+	}
+	#ocp-logo{
+		margin-left: 0;
+		width: 300px;
+	}
+	#hero blockquote{
+		color: rgb(35,31,32);
+		margin-right: 5%;
+	}
+	#idt{
+		background: linear-gradient(to top,rgba(255, 255, 255, 1), rgba(0, 0, 0, 1));
+	}
+	#idt-title{
+		float:left;
+		padding: 1% 0 1% 8%;
+	}
+	#idt article{
+		clear: both;
+		float: right;
+		margin: 0 5% 3% 5%;
+		width: 65%;
+	}
+	.idt-media{
+		width: 65%;
+	}
+	.idt-text-box{
+		width: 35%;
+	}
 	.idt-text-title{
-		font-size: 1.15em;
+		font-size: 1.45em;
 	}
 	.idt-text-body{
-		font-size: .85em;
+		font-size: 1.15em;
+	}
+	.products-article{
+		padding: 70px 0;
+	}
+	#products h3{
+		font-size: 1.75em;
+	}
+	#products p{
+		font-size: 1.15em;
+		width: 70%;
+	}
+}
+@media only screen and (max-width: 1006px) {
+	.idt-text-body{
+		font-size: 1.1em;
+		line-height: 1.2em;
+	}
+}
+@media only screen and (max-width: 976px) {
+	header{
+		text-align: center;
+	}
+	#ocp-name{
+		clear: both;
+		float: none;
+		margin: auto;
+		padding: 20px 0;/*
+		max-width: 375px;*/
+	}
+	.social-link{
+		clear: both;
+		float: none;
+		margin: auto;
+		padding-bottom: 20px;
+	}
+	.nav-link{
+		clear: both;
+		float: none;
+		margin: auto;
+		padding: 20px 0;
+	}
+	#hero{
+		text-align: center;
+	}
+	#ocp-logo{
+		clear: both;
+		float: none;
+		padding-top: 80px;
+		margin: auto;
+	}
+	#hero blockquote{
+		clear: both;
+		float: none;
+		font-size: 2.75em;
+		line-height: 1em;
+		min-width: 412px;
+		margin: auto;
+		padding:10% 15% 0 25%;
+		text-align: left;
+		word-spacing: 2px;
+	}
+	#idt-title{
+		padding: 20px 0;
+	}
+	#idt article{
+		clear: both;
+		float: none;
+		margin: 15px auto;
+	}
+	.idt-text-title{
+		font-size: 1.25em;
+	}
+	.idt-text-body{
+		font-size: 1em;
+	}
+	#products{
+		padding: 4em 1.5em;
+	}
+	#products p{
+		font-size: 1em;
+		width: 80%;
+	}
+}
+@media only screen and (max-width: 738px) {
+	#hero blockquote{
+			clear: both;
+			float: none;
+			line-height: 1em;
+			min-width: 412px;
+			margin: auto;
+			padding: 8% 10%;
+			text-align: left;
+			word-spacing: 2px;
+		}
+	#idt article{
+		width: 80%;
+	}
+	.idt-media{
+		width: 60%;
+	}
+	.idt-text-box{
+		width: 40%;
+	}
+	#products p{
+		width: 100%;
+	}
+	.products-container{
+		padding: 0;
+	}
+}
+@media only screen and (max-width: 591px) {
+	#idt article{
+		width: 90%;
+	}
+	.idt-media{
+		width: 55%;
+	}
+	.idt-text-box{
+		width: 45%;
+	}
+	.products-container{
+		clear: both;
+		float: none;
+	}
+	.products-container img{
+		width: 50%;
 	}
 }
