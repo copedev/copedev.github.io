@@ -201,7 +201,7 @@ cite{
 .products-container img{
 	display: block;
 	float: left;
-	max-width: 33%;
+	width: 33%;
 }
 #services{
 	background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(135,135,135));
@@ -214,27 +214,29 @@ cite{
 	padding: 60px 0 75px; 
 	text-align: center;
 }
+.services-container{
+	width: 100%
+}
 .services-container img{
 	display: block;
 	float: left;
-	max-width: 33%;
+	width: 33%;
 }
 .services-article{
 	line-height: 1.5em;
-	margin-top: 15%;
-	padding: 4% 3% 1% 33%;
-	text-align: left;
+	margin-top: 20%;
+	padding: 0 0 1% 33%;
+	width: 100%;
 }
 .services-article h3{
-	padding: 4% 3% 1% 24.5%;
-	
-	width: 20%;
+	padding: 4% 0 2% 0;
+	text-align: center;
 }
 .services-article p{
 	border-top: 1px solid black;
 	margin: auto;
 	padding-top: 1em;
-	width: 60%;
+	width: 75%;
 }
 .services-article cite{
 	color: black;
@@ -274,9 +276,11 @@ cite{
 #for-our-children{
 	width: 66%;
 }
-#delta-city {
-	margin-left: -4.4em;
-	width: 100vw;
+#delta-city {/*
+	margin-left: -4.4em;*/
+	margin: 0;
+	padding: 3% 0;
+	width: 100%;
 }
 #leaders{
 	background-color: rgb(35,35,35);
@@ -296,7 +300,7 @@ cite{
 	background-color: rgb(235,235,235);
 	border: 1px solid white;
 	margin: auto;
-	max-width: 30%;
+	width: 40%;
 }
 .leaders-container img{
 	border: 1px solid black;
@@ -322,6 +326,7 @@ cite{
 	font-size: 16px;
 	line-height: 1.75em;
 	padding-top: .75em;
+	text-align: left;
 }
 footer{
 	background-color: black;
@@ -331,20 +336,18 @@ footer{
 #contact{
 	margin: auto;
 	opacity: .8;
-	padding: 4em 0 2em 0;
-	width: 40%;
+	padding: 4em 0;
+	width: 50%;
 }
 #footer-email{
-	border: 4px solid white;
 	font-size: 1.2em;
 	text-align: center;
-	width: 40%;
+	width: 79%;
 }
 #footer-submit{
-	border: 4px solid white;
-	font: 1.2em "Alex Murphy Solid Regular", sans-serif;
-	padding: .05em 0;
-	width: 15%;
+	font-size: 1.2em;
+	text-transform: lowercase;
+	width: 19%;
 }
 input:hover{
 	color: rgb(229,13,0);
@@ -380,6 +383,9 @@ input:hover{
 	}
 	.idt-text-body{
 		line-height: 1.4em;
+	}
+	.services-article{
+
 	}
 }
 @media only screen and (max-width: 1389px) {
@@ -457,6 +463,13 @@ input:hover{
 		font-size: 1.15em;
 		width: 70%;
 	}
+	.leaders-container{
+		width: 60%;
+	}
+	.leaders-article p{
+		font-size: 1em;
+		line-height: 1.5em;
+	}
 }
 @media only screen and (max-width: 1006px) {
 	.idt-text-body{
@@ -528,6 +541,56 @@ input:hover{
 		font-size: 1em;
 		width: 80%;
 	}
+	.products-container{
+		clear: both;
+		float: none;
+		padding: 0;
+	}
+	#services{
+		padding: 25px 25px 0 25px;
+	}
+	.services-container{
+		clear: both;
+		display: inline;
+		float: none;
+		margin: auto;
+		padding: 5% 0;
+		width: 100%;
+	}
+	#ocp-dp{
+		width: 47%;
+	}
+	.services-container img{
+		width: 53%;
+	}
+	.services-article{
+		float: left;
+		margin: auto;
+		padding: 7% 0 7% 0;
+	}
+	#services h3{
+		font-size: 1.75em;
+	}
+	#services p{
+		width: 90%;
+	}
+	#for-our-children{
+		clear: both;
+		float: none;
+		margin-left: 10%;
+		width: 80%;
+	}
+	.future-article{
+		padding: 7% 0 7% 0;
+	}
+	.future-article h3{
+		padding-top: 7%;
+		width: 80%;
+	}
+	.future-article p{
+		padding-top: 1em;
+	}
+
 }
 @media only screen and (max-width: 738px) {
 	#hero blockquote{
@@ -549,11 +612,35 @@ input:hover{
 	.idt-text-box{
 		width: 40%;
 	}
+	#products{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
 	#products p{
 		width: 100%;
 	}
 	.products-container{
 		padding: 0;
+	}
+	#services{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	#services p{
+		width: 100%;
+	}
+	.services-container{
+		padding: 0;
+	}
+	#for-our-children{
+		margin-left: 10%;
+		width: 80%;
+	}
+	.leaders-container{
+		width: 80%;
+	}
+	#contact{
+		width: 70%;
 	}
 }
 @media only screen and (max-width: 591px) {
@@ -572,5 +659,15 @@ input:hover{
 	}
 	.products-container img{
 		width: 50%;
+	}
+	#leaders{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.leaders-container{
+		width: 100%;
+	}
+	#contact{
+		width: 80%;
 	}
 }
