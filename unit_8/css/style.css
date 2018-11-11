@@ -644,6 +644,10 @@ input:hover{
 	}
 }
 @media only screen and (max-width: 591px) {
+	#ocp-name{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
 	#idt article{
 		width: 90%;
 	}
